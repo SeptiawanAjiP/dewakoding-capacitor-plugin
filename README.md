@@ -1,6 +1,6 @@
 # @dewakoding/capacitor-mock-location
 
-Capacitor plugin to detect mock or fake GPS locations on Android devices. Built by DewaKoding.
+Capacitor plugin to detect mock or fake GPS locations on Android devices.
 
 ## Overview
 
@@ -169,11 +169,4 @@ npm run watch
 
 ## License
 
-MIT License - Copyright (c) 2026 DewaKoding
-
-## Author
-
-**DewaKoding**
-
-- Website: https://dewakoding.com
-- Email: halodewakoding@gmail.com
+MIT License

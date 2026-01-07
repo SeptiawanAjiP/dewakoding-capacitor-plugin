@@ -1,0 +1,58 @@
+{
+  "name": "@dewakoding/capacitor-mock-location",
+  "version": "1.0.0",
+  "description": "DewaKoding Capacitor plugin to detect mock/fake GPS locations on Android devices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": {
+    "name": "DewaKoding",
+    "email": "halodewakoding@gmail.com",
+    "url": "https://dewakoding.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewakoding/capacitor-mock-location.git"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "mock-location",
+    "fake-gps",
+    "gps",
+    "location",
+    "dewakoding",
+    "android",
+    "security"
+  ],
+  "dependencies": {
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.0"
+  },
+  "files": [
+    "dist/",
+    "android/",
+    "ios/",
+    "README.md",
+    "LICENSE"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+

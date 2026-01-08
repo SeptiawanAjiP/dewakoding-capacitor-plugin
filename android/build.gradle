@@ -26,6 +26,6 @@ repositories {
 
 dependencies {
     implementation project(':capacitor-android')
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.2.20"
 }
 
